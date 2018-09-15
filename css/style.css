@@ -1,0 +1,490 @@
+body,html{
+    height: 100%;
+}
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background:#ecf0f5;
+   
+}
+/*---------------------------------
+ header
+-----------------------------------*/
+header{
+  background-image: url(../images/nav.jpg);
+    background-size: cover;
+    height:95px;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    
+}
+
+/*---------------------------------
+nav
+-----------------------------------*/
+.overlay {
+    height: 85%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.3);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color:white;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: red;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+/*---------------------------------
+ img
+-----------------------------------*/
+.logo {
+   width: 13%;
+    display: block;
+    margin: 0 auto;
+ 
+}
+
+/*---------------------------------
+card
+-----------------------------------*/
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+   width: 28%;
+   margin: 2px 35px;
+    float: left;
+}
+
+.card:hover {
+    box-shadow: 0 16px 16px 0 rgba(0,0,0,0.5);
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+.card img{
+    max-width: 100%;
+    text-align: center;
+}
+
+.card span{
+    float: right;
+    color: #f8272d;
+    font-size: 24px;
+}
+.card h3{
+    float: left;
+    color: black;
+    margin-top: 24px;
+    font-size: 20px;
+    font-family: monospace;
+}
+
+
+/*-------------------------------------
+    h1
+---------------------------------------*/
+h1{
+    margin-left: 20px;
+    font-size: 34px;
+    color: #de1697;
+}
+
+/*-------------- retro ------------*/
+.retro{
+    
+    text-align: center;
+    clear: both;
+    margin-bottom: 13%;
+}
+
+
+.pot{
+  max-width: 49%;
+   float: left;
+    margin: 0px 17px;
+}
+
+
+
+
+
+.retro p{
+    text-align: justify;
+    font-size: 17px;
+    font-family: cursive;
+    padding: 0 20px;
+}
+
+
+h4{
+  font-size: 31px;
+ padding-top: 34px;
+    color: #da246b;
+}
+
+
+
+ /*---heart------------*/
+.heart{
+        clear: both;
+        background-color:#b8e4cd;
+        position: relative;
+}
+.heart h2{
+    width: 63%;
+    float: right;
+}
+
+.heart p {
+   position: absolute;
+    top: 4%;
+    width: 50%;
+    left: 25%;
+    COLOR: #d32d7f;
+    text-align: center;
+    font-size: 18px;
+}
+
+.heart span{
+  font-size: 74px;
+    color:  #078242;
+    font-family: cursive
+}
+
+.heart h5{
+position: absolute;
+    top: 80%;
+    left: 42%;
+    font-size: 41px;
+    color:#ff3290;
+    font-family: cursive
+}
+
+.heart h5:hover{
+    background-color: #57b4bb;
+}
+
+.three{
+    display: block;
+    margin: 0 auto;
+    
+}
+
+/*------clock--------*/
+
+.container{
+   box-sizing: border-box;
+    margin: 0 auto;
+    background-color: #ecf0f5;
+    position: relative;
+}
+
+.container h4{
+    position: absolute;
+    left: 37%;
+    color: white;
+    text-align: center;
+    font-family: cursive;
+    font-size: 3em;
+    top:-10%;
+    font-size: 40px;
+   
+    
+}
+
+
+.container .content{
+ position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.2);
+    width: 52%;
+    text-align: center;
+    margin-left: 23%;
+    color: #101010;
+   
+}
+ 
+
+
+.img{
+    display: block;
+    margin: 0 auto;
+}
+
+.content h2{
+    font-size: 2em;
+    color:black;
+    font-weight: bold;
+}
+
+.content p{
+    color: white;
+    font-size: 17px;
+}
+
+.container .content:hover{
+   
+    background-color: #d5558e;
+   
+}
+
+
+
+/*------jim--------*/
+
+.container-eg{
+   clear: both;
+    background-color: white;
+    max-width: 1200px;
+    height: 525px;
+    margin: 2% auto;
+    overflow: hidden;
+}
+
+.container-eg h3{
+    margin: 0;
+    padding: 10px 0 10px 20px;
+    font-size: 31px;
+    text-transform: uppercase;
+    color: #c31e5d;
+    font-family: cursive;
+    font-weight: bold;
+ border-bottom: 1px solid rgba(0,0,0,.1);
+
+}
+
+
+.jim{
+    float: left;
+    margin-right:2%;
+   
+}
+.container-eg h4{
+    font-size: 30px;
+    font-family: cursive;
+    font-weight: bold;
+}
+.container-eg p{
+    text-align: justify;
+    padding: 0px 10px;
+  
+}
+
+.checked {
+    color: orange;
+}
+.extra{
+    color: white;
+    font-size: 27px;
+}
+
+/*------jim--------*/
+
+    .container-eb{
+   clear: both;
+    background-color: #fabf3678;
+    height: 360px;
+    width: 99%;
+  padding:10px;
+    
+}
+
+.container-eb h3{
+    padding: 10px 0 10px 20px;
+    font-size: 31px;
+    text-transform: uppercase;   color: rgb(83, 206, 7);
+    font-family: cursive;
+    font-weight: bold;
+ border-bottom: 1px solid rgba(0,0,0,.2);
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.post {
+   width: 32%;
+    float: left;
+     margin-right: 11px;
+    
+    
+}
+
+.post img{
+    max-width: 100%;
+    text-align: center;
+  padding-left: 10px;
+   
+}
+.content-ec{
+    position: relative;
+}
+
+.post img:hover{
+    box-shadow: 0 10px 12px 0 rgba(0,0,0,0.9);
+    transition: 0.1s;
+}
+
+
+
+
+/*---------media ----------*/
+
+@media screen and (max-width: 500px) {
+
+    
+    h1{
+      font-size: 22px;
+    color: #084842;
+    text-align: center;
+       
+}
+   
+    .logo{ 
+    width: 32%;
+    display: block;
+    margin: 0 auto;
+    }
+    
+    
+    .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 80%;
+    
+    
+    }
+    .card img{
+        max-width: 100%;
+    } 
+    
+    .pot{
+        float: none;
+    max-width: 94%;
+    display: block;
+    margin: 0 auto;
+    }
+    
+    .jim {
+    float: left;
+    margin-right: 2%;
+    max-width: 50%;
+}
+    .container-eg h3{
+        font-size: 26px;
+    }
+    
+    .container-eg {
+        height: 791px
+    }
+    
+   .three {
+    display: block;
+    margin: 0 auto;
+    max-width: 80%; 
+}
+ 
+    .heart span {
+    font-size: 25px;
+    }
+    
+    .container{
+        padding: 0px;
+    }
+    
+    .container h4{
+        left:4%;
+    color: white;
+    text-align: center;
+    font-family: cursive;
+    font-size: 35px;
+    }
+    .container .content {
+        width: 60%;
+       
+    }
+     .overlay-content {
+        width: 50%;
+    }
+    .overlay {
+    height: 42%;
+}
+   .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    font-size: 60px;
+       right: 63%;
+    }
+    
+    .post{
+    margin-right: 11px;
+    display: block;
+        width: 100%;
+      
+    }
+    .container-eb h3{
+        width: 100%;
+        
+    }
+    .container-eb{
+        height: 700px;
+        width: 100%;
+        padding: 0px;
+        margin: 10px auto;
+    } 
+    
+    .post img{
+        padding: 0px;
+    } 
+}
+    
+/*---------media  nav----------*/
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 2px;
+      margin: 0 auto;
+  }  
+   
+}
