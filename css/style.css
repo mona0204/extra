@@ -35,7 +35,7 @@ nav
     top: 0;
     left: 0;
     background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0, 0.3);
+    background-color: rgba(0,0,0, 0.1);
     overflow-x: hidden;
     transition: 0.5s;
 }
@@ -127,7 +127,7 @@ h1{
 }
 
 /*-------------- retro ------------*/
-.retro{
+#retro{
     
     text-align: center;
     clear: both;
@@ -145,7 +145,7 @@ h1{
 
 
 
-.retro p{
+#retro p{
     text-align: justify;
     font-size: 17px;
     font-family: cursive;
