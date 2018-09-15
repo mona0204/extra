@@ -432,16 +432,31 @@ position: absolute;
     }
     
     .container h4{
-        left:4%;
+        left:16%;
     color: white;
     text-align: center;
     font-family: cursive;
-    font-size: 35px;
+    font-size: 23px;
     }
+    
     .container .content {
-        width: 60%;
-       
+       position: absolute;
+    bottom: 0px;
+    right: -1px;
+    width: 100%;
     }
+     .img{
+        max-width: 100%;
+    }
+    
+    .content h2 {
+    font-size: 22px;
+    color: black;
+    
+    }
+    
+    
+    
      .overlay-content {
         width: 50%;
     }
