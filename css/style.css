@@ -242,8 +242,6 @@ position: absolute;
    
 }
  
-
-
 .img{
     display: block;
     margin: 0 auto;
@@ -253,6 +251,7 @@ position: absolute;
     font-size: 2em;
     color:black;
     font-weight: bold;
+    
 }
 
 .content p{
@@ -263,7 +262,9 @@ position: absolute;
 .container .content:hover{
    
     background-color: #d5558e;
-   
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.9);
+    transition: 0.2s;
+    
 }
 
 
