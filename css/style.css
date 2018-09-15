@@ -28,7 +28,7 @@ header{
 nav
 -----------------------------------*/
 .overlay {
-    height: 85%;
+    height: 100%;
     width: 0;
     position: fixed;
     z-index: 1;
@@ -361,7 +361,7 @@ position: absolute;
 
 .post img:hover{
     box-shadow: 0 10px 12px 0 rgba(0,0,0,0.9);
-    transition: 0.1s;
+    
 }
 
 
@@ -454,11 +454,9 @@ position: absolute;
     color: black;
     
     }
-    
-    
-    
+
      .overlay-content {
-        width: 50%;
+        width: 100%;
     }
     .overlay {
     height: 42%;
@@ -467,7 +465,7 @@ position: absolute;
     position: absolute;
     top: 20px;
     font-size: 60px;
-       right: 63%;
+      
     }
     
     .post{
@@ -499,8 +497,7 @@ position: absolute;
   .overlay .closebtn {
     font-size: 40px;
     top: 15px;
-    right: 2px;
-      margin: 0 auto;
+     
   }  
    
 }
