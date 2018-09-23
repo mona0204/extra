@@ -238,7 +238,10 @@ position: absolute;
     width: 52%;
     text-align: center;
     margin-left: 23%;
-    color: #101010;
+    color: white;
+    height: 60px;
+    overflow: hidden;
+    cursor: pointer;
    
 }
  
@@ -248,7 +251,7 @@ position: absolute;
 }
 
 .content h2{
-    font-size: 2em;
+    font-size: 30px;
     color:black;
     font-weight: bold;
     
@@ -260,11 +263,28 @@ position: absolute;
 }
 
 .container .content:hover{
-   
     background-color: #d5558e;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.9);
     transition: 0.2s;
+    height: 140px;
     
+}
+#topX{
+    clear: both;
+    position: sticky;
+    top: 90%;
+    /* left: 20%; */
+    float: right;
+    background-color: #1e9e8b;
+    border-radius: 7px;
+    padding: 11px;
+     cursor: pointer;
+    font-size: large;
+    z-index: 2;
+}
+#topX:hover {
+    background-color: rgba(230, 181, 126, 1);
+  
 }
 
 
