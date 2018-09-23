@@ -36,7 +36,7 @@
  
 </header>
 
-<span onclick="goTop()" id="topX">&#8911;</span>
+
      
 <!--====== back======-->
 <div id="back">
@@ -113,6 +113,7 @@
          </div>     
         </div>
  </div>
+ <span onclick="goTop()" id="topX">&#8911;</span>
  <!--====== jim======-->
    <div id="product">
     <div class="container-eb">
@@ -140,7 +141,14 @@ function closeNav() {
 }
 </script>
    
-   
+   <script>
+    
+     function goTop(){
+       document.body.scrollTop="0";
+        document.documentElement.scrollTop="0";
+        
+    }
+    </script>
    
    
    

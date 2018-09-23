@@ -2,7 +2,9 @@ body,html{
     height: 100%;
 }
 
-
+html{
+    scroll-behavior: smooth;
+}
 
 body{
     margin: 0;
@@ -280,7 +282,7 @@ position: absolute;
     padding: 11px;
      cursor: pointer;
     font-size: large;
-    z-index: 2;
+    z-index: 7;
 }
 #topX:hover {
     background-color: rgba(230, 181, 126, 1);
@@ -351,7 +353,7 @@ position: absolute;
 .container-eb h3{
     padding: 10px 0 10px 20px;
     font-size: 31px;
-    text-transform: uppercase;   color: rgb(83, 206, 7);
+    text-transform: uppercase;
     font-family: cursive;
     font-weight: bold;
  border-bottom: 1px solid rgba(0,0,0,.2);
